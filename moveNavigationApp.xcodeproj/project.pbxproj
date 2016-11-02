@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D2E4AE8C1DC98D5500D78DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4AE8B1DC98D5500D78DB1 /* AppDelegate.swift */; };
-		D2E4AE8E1DC98D5500D78DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4AE8D1DC98D5500D78DB1 /* ViewController.swift */; };
 		D2E4AE911DC98D5500D78DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4AE8F1DC98D5500D78DB1 /* Main.storyboard */; };
 		D2E4AE931DC98D5500D78DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E4AE921DC98D5500D78DB1 /* Assets.xcassets */; };
 		D2E4AE961DC98D5500D78DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4AE941DC98D5500D78DB1 /* LaunchScreen.storyboard */; };
+		D2E4AEA41DCA04D900D78DB1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4AEA31DCA04D900D78DB1 /* RootViewController.swift */; };
+		D2E4AEA61DCA09F200D78DB1 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4AEA51DCA09F200D78DB1 /* EndViewController.swift */; };
+		D2E4AEA81DCA0AF300D78DB1 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4AEA71DCA0AF300D78DB1 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2E4AE881DC98D5500D78DB1 /* moveNavigationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moveNavigationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E4AE8B1DC98D5500D78DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2E4AE8D1DC98D5500D78DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2E4AE901DC98D5500D78DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2E4AE921DC98D5500D78DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E4AE951DC98D5500D78DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E4AE971DC98D5500D78DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E4AEA31DCA04D900D78DB1 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
+		D2E4AEA51DCA09F200D78DB1 /* EndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndViewController.swift; path = ../EndViewController.swift; sourceTree = "<group>"; };
+		D2E4AEA71DCA0AF300D78DB1 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D2E4AE8B1DC98D5500D78DB1 /* AppDelegate.swift */,
-				D2E4AE8D1DC98D5500D78DB1 /* ViewController.swift */,
+				D2E4AEA31DCA04D900D78DB1 /* RootViewController.swift */,
+				D2E4AEA71DCA0AF300D78DB1 /* NextViewController.swift */,
+				D2E4AEA51DCA09F200D78DB1 /* EndViewController.swift */,
 				D2E4AE8F1DC98D5500D78DB1 /* Main.storyboard */,
 				D2E4AE921DC98D5500D78DB1 /* Assets.xcassets */,
 				D2E4AE941DC98D5500D78DB1 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E4AE8E1DC98D5500D78DB1 /* ViewController.swift in Sources */,
+				D2E4AEA61DCA09F200D78DB1 /* EndViewController.swift in Sources */,
+				D2E4AEA81DCA0AF300D78DB1 /* NextViewController.swift in Sources */,
+				D2E4AEA41DCA04D900D78DB1 /* RootViewController.swift in Sources */,
 				D2E4AE8C1DC98D5500D78DB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +305,7 @@
 				D2E4AE9C1DC98D5500D78DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
